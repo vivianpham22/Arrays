@@ -54,30 +54,93 @@ namespace Arrays
             //// Console.WriteLine("\n{0}, {1}, {2}, {3}", classmatesName[0], classmatesName[1], classmatesName[2], classmatesName[4]);
 
 
-            // dateType[] nameOfArray = new dataType[#ofElements]; <-- Creating a new array 
-            int[] numberOfSeats = new int[21];
-            string[] studentsInClass = new string[21];
+            //// datetype[] nameofarray = new datatype[#ofelements]; <-- creating a new array 
+            //int[] numberofseats = new int[21];
+            //string[] studentsinclass = new string[21];
 
-            // nameOfArray[index] = Elements;
-            studentsInClass[0] = "Jordan";
+            //// nameofarray[index] = elements;
+            //studentsinclass[0] = "jordan";
 
-            Console.WriteLine("Please enter in the name of the next student");
-            studentsInClass[1] = Console.ReadLine();
-            Console.WriteLine("The student in the second seat is {0}.", studentsInClass[1]);
+            //console.writeline("please enter in the name of the next student");
+            //studentsinclass[1] = console.readline();
+            //console.writeline("the student in the second seat is {0}.", studentsinclass[1]);
 
-            Console.WriteLine("Please enter the age of the person in the first seat.");
-            //Create a new int array with 21 spots and a call it ageOfStudentsInClass
-            int[] ageOfStudentsInClass = new int[21];
+            //console.writeline("please enter the age of the person in the first seat.");
+            //// create a new int array with 21 spots and a call it ageofstudentsinclass
+            //int[] ageofstudentsinclass = new int[21];
 
-            // Assign the value of the int at the 0 index of ageOfStudentsInClass to.....
-            //... the user's input coverted into an int
-            ageOfStudentsInClass[0] = int.Parse(Console.ReadLine()); // int.Parse turns the string into an int <-- Console.ReadLine reads int as a string so we use int.Parse
-            Console.WriteLine("The age of the first student in the first seat is " + ageOfStudentsInClass[0]);
+            ////assign the value of the int at the 0 index of ageofstudentsinclass to.....
+            ////... the user's input coverted into an int
+            //ageofstudentsinclass[0] = int.parse(console.readline()); // int.parse turns the string into an int <-- console.readline reads int as a string so we use int.parse
+            //console.writeline("the age of the first student in the first seat is " + ageofstudentsinclass[0]);
 
-            // Create a new string variable and set it equal to the int at the index of 0
-            // and convert it into a string
-            string firstIndex = ageOfStudentsInClass[0].ToString(); 
-            
+            ////create a new string variable and set it equal to the int at the index of 0
+            //// and convert it into a string
+            //string firstindex = ageofstudentsinclass[0].tostring();
+
+
+
+            //string[] restaurntsInMall = { "Subway", "Saki", "Dunkin Donuts", "Red Lobster", "Chick Fil-A" };
+            //Console.WriteLine(restaurntsInMall.Length);
+
+            ////For review
+            ////Declare and not initilize
+            //int[] myIntArrayAgain;
+
+            ////Declare an array when I DO know the elements
+            //char[] lettersInFirstName = { 'V', 'i', 'v', 'i', 'a', 'n' };
+
+            ////Declare and intitialize an array when i DONT know the element
+            //string[] variableName = new string[42];
+
+
+            //// To practice using .Length create a char array of the letters in your middle name
+            //// ... and print the numbero f char's to the Console.
+            //char[] lettersInMiddleName = { 'H', 'o', 'n', 'g' };
+            //Console.WriteLine(lettersInMiddleName.Length);
+
+            ////Declare and initialize a string array 
+            ////Using the Length property, print the SECOND TO LAST element in the array
+            //string[] toSix = { "One", "Two", "Three", "Four", "Five", "Six", };
+            //// int numToSix = toSix.Length;
+            //Console.WriteLine(toSix[toSix.Length - 2]);
+            //                 //  toSix  [ 6 - 2 ]
+            //                 //  toSix   =  [ 4 ]
+
+
+            //// IndexOf is a METHOD used to search an array for a specificed value and returns
+            //// the index postion of the FIRST matching value found
+            //int[] bestYearEver = { 1985, 1999, 1991, 2000, 1985 };
+            //Console.WriteLine(Array.IndexOf(bestYearEver, 1985)); // ()) <-- used for METHOD
+
+            //// LastIndexOf is a method used to search an array for a specified value and returns
+            //// the index positon of the LAST matching value found 
+            //Console.WriteLine(Array.LastIndexOf(bestYearEver, 1985));
+
+
+            // Reverse Method 
+            int[] palindromeNumber = { 1, 2, 3, 4, 5, 6, 7 };
+            Console.WriteLine(palindromeNumber[0]);
+            Console.WriteLine(palindromeNumber[2]);
+            Array.Reverse(palindromeNumber);
+            Console.WriteLine(palindromeNumber[0]);
+            Console.WriteLine(palindromeNumber[2]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            //string[] daysInWeek = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday" };
+            //Console.WriteLine(daysInWeek.Length);
 
 
 
