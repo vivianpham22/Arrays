@@ -115,32 +115,79 @@ namespace Arrays
 
             //// LastIndexOf is a method used to search an array for a specified value and returns
             //// the index positon of the LAST matching value found 
-            //Console.WriteLine(Array.LastIndexOf(bestYearEver, 1985));
+            // Console.WriteLine(Array.LastIndexOf(bestYearEver, 1985));
 
 
-            // Reverse Method 
-            int[] palindromeNumber = { 1, 2, 3, 4, 5, 6, 7 };
-            Console.WriteLine(palindromeNumber[0]);
-            Console.WriteLine(palindromeNumber[2]);
-            Array.Reverse(palindromeNumber);
-            Console.WriteLine(palindromeNumber[0]);
-            Console.WriteLine(palindromeNumber[2]);
+            // // Reverse Method 
+            // int[] palindromeNumber = { 1, 2, 3, 4, 5, 6, 7 };
+            // Console.WriteLine(palindromeNumber[0]);
+            //// Console.WriteLine(palindromeNumber[2]);
+            // Array.Reverse(palindromeNumber);
+            // Console.WriteLine(palindromeNumber[0]);
+            // // Console.WriteLine(palindromeNumber[2]);
 
 
+            // Sort
+            // Will sort numbers in an array from the lowest to highest
+            // Will sort char's and strings in alphabetical order from A-Z
 
-
-
-
-
-
-
-
-
-
-
+            //string[] powerRangers = { "Green", "Yellow", "Pink", "Red", "Black" };
+            //Console.WriteLine(powerRangers[0]);
+            //Array.Sort(powerRangers);
+            //Console.WriteLine(powerRangers[0]);
 
             //string[] daysInWeek = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday" };
             //Console.WriteLine(daysInWeek.Length);
+
+
+            // Declare and initialize a string array of first names.  
+            // Choose a name to find and print the IndexOf
+            //string[] firstNames = { "Vivian", "Alicia", "Justin", "Quinn", "Ryan", "Vincent" };
+            //Console.WriteLine(Array.IndexOf(firstNames, "Alicia"));
+
+            //Create an array of lucky numbers. Each number should repeat at least once. 
+            //Choose a lucky number, find and print the last index of it.
+            int[] luckyNumbers = { 6, 8, 16, 22, 31, 6, 8, 16, 22, 31 };
+
+
+
+
+
+            // Create an array of alphabet characters. 
+            // Print the first index of the array.
+            // Now reverse the array and print the first index.
+            char[] alphabetABC = { 'a', 'v', 'j', 'q', 'r', 'g' };
+
+
+
+
+            ////Create an array of student names in random order. 
+            ////Order the students’ names using the sort method.
+            ////Print the first and last students’ names.
+            //string[] studentsName = { "Alicia", "Javier", "Tommy", "Anthony", "Sam" };
+            //Console.WriteLine(studentsName[0]);
+            //Array.Sort(studentsName);
+            //Console.WriteLine(studentsName[3]); // <-- Will print in alphabetical orders ABC
+
+
+            // Ask 10 people for their favorite numbers and create an array of those numbers.
+            // Order the numbers using the sort method.
+            // Print the first and last numbers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
